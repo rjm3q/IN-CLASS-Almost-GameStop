@@ -9,7 +9,7 @@ const emptyAuthors = () => {
 const showAuthors = (array) => {
   clearDom();
 
-  const btnString = '<button class="btn btn-success btn-lg mb-4" id="add-author-btn">Add An Author</button>';
+  const btnString = '<button class="btn btn-success btn-lg mb-4" id="add-author-btn">Add An Developer</button>';
 
   renderToDOM('#add-button', btnString);
 
@@ -18,7 +18,8 @@ const showAuthors = (array) => {
     domString += `
     <div class="card" style="width: 18rem;">
       <div class="card-body">
-        <h5 class="card-title">${item.first_name} ${item.last_name}</h5>
+        <h5 class="card-title">${item.studio_name}</h5>
+        <h5 class="card-title">${item.publisher_name}</h5>
         <h6 class="card-subtitle mb-2 text-muted">${item.email}</h6>
         <hr>
         <i class="btn btn-success fas fa-eye" id="view-author-btn--${item.firebaseKey}"></i>

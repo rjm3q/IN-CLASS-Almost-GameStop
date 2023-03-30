@@ -8,12 +8,12 @@ const addBookForm = (obj = {}) => {
   const domString = `
     <form id="${obj.firebaseKey ? `update-book--${obj.firebaseKey}` : 'submit-book'}" class="mb-4">
       <div class="form-group">
-        <label for="title">Book Title</label>
-        <input type="text" class="form-control" id="title" aria-describedby="bookTitle" placeholder="Enter Book Title" value="${obj.title || ''}" required>
+        <label for="title">Game Title</label>
+        <input type="text" class="form-control" id="title" aria-describedby="bookTitle" placeholder="Enter Game Title" value="${obj.title || ''}" required>
       </div>
       <div class="form-group">
         <label for="description">Description</label>
-        <textarea class="form-control" placeholder="Book Description" id="description" style="height: 100px">${obj.description || ''}</textarea>
+        <textarea class="form-control" placeholder="Game Description" id="description" style="height: 100px">${obj.description || ''}</textarea>
       </div>
       <div class="form-group">
         <label for="image">Image URL</label>
@@ -21,7 +21,7 @@ const addBookForm = (obj = {}) => {
       </div>
       <div class="form-group">
         <label for="price">Price</label>
-        <input type="text" class="form-control" id="price" placeholder="Book Price" value="${obj.price || ''}" required>
+        <input type="text" class="form-control" id="price" placeholder="Game Price" value="${obj.price || ''}" required>
       </div>
       <div class="form-group" id="select-author">
       </div>
@@ -29,7 +29,7 @@ const addBookForm = (obj = {}) => {
         <input type="checkbox" class="form-check-input" id="sale" ${obj.sale ? 'checked' : ''}>
         <label class="form-check-label" for="sale">On Sale?</label>
       </div>
-      <button type="submit" class="btn btn-primary">Submit Book
+      <button type="submit" class="btn btn-primary">Submit Game
       </button>
     </form>`;
 

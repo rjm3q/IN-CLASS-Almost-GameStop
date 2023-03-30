@@ -3,19 +3,19 @@ const formEvents = () => {
     e.preventDefault();
     // TODO: CLICK EVENT FOR SUBMITTING FORM FOR ADDING A BOOK
     if (e.target.id.includes('submit-book')) {
-      console.warn('CLICKED SUBMIT BOOK', e.target.id);
+      console.warn('CLICKED SUBMIT GAME', e.target.id);
     }
 
     // TODO: CLICK EVENT FOR EDITING A BOOK
     if (e.target.id.includes('update-book')) {
       const [, firebaseKey] = e.target.id.split('--');
-      console.warn('CLICKED UPDATE BOOK', e.target.id);
+      console.warn('CLICKED UPDATE GAME', e.target.id);
       console.warn(firebaseKey);
     }
 
     // FIXME: ADD CLICK EVENT FOR SUBMITTING FORM FOR ADDING AN AUTHOR
     if (e.target.id.includes('submit-author')) {
-      console.warn('CLICKED SUBMIT AUTHOR');
+      console.warn('CLICKED SUBMIT DEVELOPER');
     }
     // FIXME:ADD CLICK EVENT FOR EDITING AN AUTHOR
   });
