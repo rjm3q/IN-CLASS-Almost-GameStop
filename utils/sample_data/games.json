@@ -1,0 +1,92 @@
+{
+  "-MiBsBKGWFEU-yluJkL-": {
+    "dev_id": "-MiBt86VzkC-EGmJnxjm",
+    "firebaseKey": "-MiBsBKGWFEU-yluJkL-",
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png",
+    "price": "24.99",
+    "description": "",
+    "sale": false,
+    "title": "Grand Theft Auto V",
+    "uid": ""
+  },
+  "-MiBsknNSQ6aBG1-2lQS": {
+    "dev_id": "-MiBsfuTafbEQ7eAULxV",
+    "firebaseKey": "-MiBsknNSQ6aBG1-2lQS",
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/34/Fallout_New_Vegas.jpg",
+    "price": "12.99",
+    "description": "",
+    "sale": true,
+    "title": "Fallout: New Vegas",
+    "uid": ""
+  },
+  "-MiBuCve4-r_H-RLUOh2": {
+    "dev_id": "-MiBtwf1BwN9pGavQeR3",
+    "firebaseKey": "-MiBuCve4-r_H-RLUOh2",
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/50/Super_Smash_Bros._Ultimate.jpg",
+    "price": "30.00",
+    "description": "",
+    "sale": false,
+    "title": "Super Smash Bros. Ultimate",
+    "uid": ""
+  },
+  "-MiBuU13EaKmGOMjJF-X": {
+    "dev_id": "-MiBuOfHv9NCKB_cneij",
+    "firebaseKey": "-MiBuU13EaKmGOMjJF-X",
+    "image": "https://upload.wikimedia.org/wikipedia/en/b/b9/Elden_Ring_Box_art.jpg",
+    "price": "15.89",
+    "description": "",
+    "sale": false,
+    "title": "Elden Ring",
+    "uid": ""
+  },
+  "-MiBuqoYjFwbXyA8oiiw": {
+    "dev_id": "-MiBulenBnY8by9Xn7q1",
+    "firebaseKey": "-MiBuqoYjFwbXyA8oiiw",
+    "image": "https://upload.wikimedia.org/wikipedia/en/8/88/Diablo_2_Resurrected_cover_art.jpg",
+    "price": "25.00",
+    "description": "",
+    "sale": true,
+    "title": "Diablo II: Resurrected",
+    "uid": ""
+  },
+  "-MiBvEFJTI3FmTzDu_3V": {
+    "dev_id": "-MiBv9_aOEJQWoobjz_U",
+    "firebaseKey": "-MiBvEFJTI3FmTzDu_3V",
+    "image": "https://upload.wikimedia.org/wikipedia/en/d/d2/Sonic_Mania_%28artwork%29.jpg",
+    "price": "12.99",
+    "description": "",
+    "sale": true,
+    "title": "Sonic Mania",
+    "uid": ""
+  },
+  "-MiBvW8ME_DvO2GzwQ8D": {
+    "dev_id": "-MiBvQiWr6XNwNa1i3-0",
+    "firebaseKey": "-MiBvW8ME_DvO2GzwQ8D",
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/a7/God_of_War_4_cover.jpg",
+    "price": "15.00",
+    "description": "",
+    "sale": false,
+    "title": "God of War (2018)",
+    "uid": ""
+  },
+  "-MiBvf3bIyooE6x4nLLB": {
+    "dev_id": "-MiBvQiWr6XNwNa1i3-0",
+    "firebaseKey": "-MiBvf3bIyooE6x4nLLB",
+    "image": "https://upload.wikimedia.org/wikipedia/en/e/e1/Spider-Man_PS4_cover.jpg",
+    "price": "14.99",
+    "description": "",
+    "sale": false,
+    "title": "Marvel's Spider-Man",
+    "uid": ""
+  },
+  "-MiBwAF5wOY00AYJm7cR": {
+    "dev_id": "-MiBw4tCvNZd23yTVDQw",
+    "firebaseKey": "-MiBwAF5wOY00AYJm7cR",
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg",
+    "price": "12.00",
+    "description": "",
+    "sale": false,
+    "title": "Cyberpunk 2077",
+    "uid": ""
+  }
+}
