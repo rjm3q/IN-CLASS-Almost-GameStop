@@ -1,3 +1,6 @@
+import { deleteBook, getBooks, getSingleBook, updateBook } from "../api/bookData";
+import { showBooks } from '../pages/books';
+
 const domEvents = () => {
   document.querySelector('#main-container').addEventListener('click', (e) => {
     // TODO: CLICK EVENT FOR DELETING A BOOK
@@ -6,6 +9,10 @@ const domEvents = () => {
       if (window.confirm('Want to delete?')) {
         console.warn('CLICKED DELETE GAME', e.target.id);
         console.warn(e.target.id.split('--'));
+
+        deleteBook(firebaseKey).then(() => {
+          getBooks().then(showBooks);
+        });
       }
     }
 
